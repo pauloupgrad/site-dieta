@@ -15137,6 +15137,11 @@ a, a:hover {
   text-decoration: none;
 }
 
+.row {
+  margin: 0;
+  padding: 0;
+}
+
 ul {
   list-style: none;
 }
@@ -15148,5 +15153,8 @@ body {
 
 /* mixins */
 /* Componentes */
+.publicidade-superior {
+  background-color: #aaa;
+}
 
 /*# sourceMappingURL=style.css.map */
