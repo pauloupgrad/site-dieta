@@ -1,0 +1,25 @@
+header{
+    background: $roxo;
+    padding:5px 0 10px 0;
+    a.logo{
+        padding: 10px 0;
+    }
+    ul.redes{
+        padding: 10px 0;
+    }
+    nav{
+        ul{
+            li{
+                padding: 10px;
+                a{                    
+                    color: $branco;
+                    @include text-shadow();
+                    text-transform: uppercase;
+                    &:hover{
+                        color: $laranja;
+                    }
+                }
+            }
+        }
+    }
+}

@@ -1,0 +1,33 @@
+.btn-laranja{
+    background: $laranja-fraco;
+    color: $branco;    
+    @include text-shadow();
+    &:hover{
+       background: $laranja;
+       color: $branco-1;
+    }      
+}
+ul.redes{           
+    li{         
+       padding: 0 5px;
+        .face, .twitter, .github, .linkdin{
+            font-size: 2rem;
+        }
+        .face{
+           color: #38529A; 
+        }
+        .twitter{
+            color: #5AA4D6;
+        }
+        .github{
+            color: #161414; 
+        }
+        .linkdin{
+           color: #48709B;
+        }
+        &:hover{
+            opacity: 0.7;
+            transition: ease 1s;
+        }
+    }
+}

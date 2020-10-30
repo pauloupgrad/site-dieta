@@ -1,0 +1,61 @@
+footer{
+    padding: 10px 0 25px 0;
+    background: $roxo;
+    color: $branco;
+    margin-top: 30px;    
+    h2{
+        font-size: 1.2rem;
+        text-transform: uppercase;
+        border-bottom: 6px solid $azul;
+        padding:5px 0;
+        margin-top: 15px;
+        @include text-shadow();
+    }
+    nav{
+        font-size: 1rem;
+        @include text-shadow();        
+    }
+    article{
+        ul.info{
+            @include text-shadow();
+            li{
+                padding-bottom: 5px;
+            }
+            i{
+                margin-right: 5px;
+                font-size: 1.2rem;
+            }
+            i.email{
+                color:rgb(230, 78, 78);
+            }
+            i.adreess{
+                color: $azul-fraco;
+            }
+            i.phone{
+                color:#666;
+            }
+            i.whats{
+                color: #0DBB42;
+            }
+        }
+    }  
+    ul{        
+        li{
+            a.item-link{
+                font-size: 1rem;
+                color: $branco;
+                &:hover{
+                    color: $branco-1;
+                }                
+            }
+        }
+    }
+}
+.footer-copy{
+    padding: 10px;
+    background: $azul;
+    color: $branco;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
