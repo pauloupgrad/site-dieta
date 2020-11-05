@@ -7,6 +7,15 @@
        color: $branco-1;
     }      
 }
+.btn-azul{
+    background: $azul;
+    color: $branco;    
+    @include text-shadow();
+    &:hover{
+       background: $azul-fraco;
+       color: $branco-1;
+    }      
+}
 ul.redes{           
     li{         
        padding: 0 5px;

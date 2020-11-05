@@ -1,3 +1,9 @@
 @mixin text-shadow($x: 2px, $y: 2px, $blur: 5px, $color: rgba(0,0,0,.4)) {
     text-shadow: $x $y $blur $color;
 }
+
+@mixin bg-box($bg-cor: $branco, $cor: $cinza, $tb: 40px, $lr: 0px){
+    background: $bg-cor;
+    margin: $tb $lr;
+    color: $cor; 
+}

@@ -15166,6 +15166,16 @@ body {
   color: #D3CED2;
 }
 
+.btn-azul {
+  background: #57acc4;
+  color: #FFFFFF;
+  text-shadow: 2px 2px 5px rgba(0, 0, 0, 0.4);
+}
+.btn-azul:hover {
+  background: #8CD0E3;
+  color: #D3CED2;
+}
+
 ul.redes li {
   padding: 0 5px;
 }
@@ -15228,9 +15238,9 @@ header nav ul li a:hover {
   display: block;
 }
 .pages div.box-pages {
-  color: #999;
-  margin: 40px 0;
-  background: #FFFFFF;
+  background: #FFDBF4;
+  margin: 40px 0px;
+  color: #57acc4;
   -webkit-box-shadow: 0px 0px 5px 0px #999;
   box-shadow: 0px 0px 5px 0px #999;
 }
