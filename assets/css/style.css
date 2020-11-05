@@ -15234,8 +15234,18 @@ header nav ul li a:hover {
   color: #999;
   text-transform: uppercase;
   padding: 20px 0px 10px 0;
-  border-bottom: 5px solid #999;
   display: block;
+  border-bottom: none;
+  border-bottom: 5px solid #999;
+}
+.pages .title {
+  font-size: 3.5rem;
+  color: #c5b8b8;
+  text-transform: none;
+  padding: 20px 0px 10px 0;
+  display: block;
+  border-bottom: none;
+  font-weight: 300;
 }
 .pages div.box-pages {
   background: #FFDBF4;

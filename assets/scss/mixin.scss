@@ -5,5 +5,15 @@
 @mixin bg-box($bg-cor: $branco, $cor: $cinza, $tb: 40px, $lr: 0px){
     background: $bg-cor;
     margin: $tb $lr;
-    color: $cor; 
+    color: $cor;
+          
+}
+
+@mixin title-pages($size: 1rem, $color: #999, $transform: none, $border: none){
+    font-size: $size;
+    color: $color;
+    text-transform: $transform;
+    padding: 20px 0px 10px 0;
+    display: block;
+    border-bottom: $border;
 }

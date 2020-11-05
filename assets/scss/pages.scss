@@ -1,13 +1,13 @@
 .pages{
     margin: 0;
-    padding: 0;    
+    padding: 0;
     h1{
-        font-size: 1.5rem;
-        color: $cinza;
-        text-transform: uppercase;
-        padding: 20px 0px 10px 0;
-        border-bottom: 5px solid $cinza;
-        display: block;
+        @include title-pages(1.5rem, $cinza, uppercase);
+        border-bottom: 5px solid $cinza;  
+    }    
+    .title{
+        @include title-pages(3.5rem, $cinza-fraco);
+        font-weight: 300;
     }
     div.box-pages{
         @include bg-box($rosa,$azul);
